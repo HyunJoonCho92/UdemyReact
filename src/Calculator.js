@@ -9,7 +9,8 @@
 //       10 / 20 = 0.5(배경색 ??)
 // 4. 외부 파일에서는 Calculator로 지정
 
-function Calc(param){
+function Calc(param){ //<Calc  su1="10" su2="20" />
+            //param 객체 = {su1 : 10, su2 : 20};
     let num1 = parseInt(param.su1);
     let num2 = parseInt(param.su2);
     let op_list = ["+", '-', '*', '/'];
